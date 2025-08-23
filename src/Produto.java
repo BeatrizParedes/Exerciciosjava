@@ -1,8 +1,10 @@
-public class Produto {
+public class Produto { //Definição da classe
     private int codigo;
     private String nome;
+    public Produto(){
+    }
 
-    public Produto (int cod, String n){
+    public Produto (int cod, String n){ //construtor, que possui o mesmo nome da classe
         codigo=cod;
         nome=n;
     }
